@@ -32,6 +32,11 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
+"@heroicons/react@^2.0.10":
+  version "2.0.10"
+  resolved "https://registry.yarnpkg.com/@heroicons/react/-/react-2.0.10.tgz#191a305aa2dc2271903f027c9f4700ca3dfa9e7b"
+  integrity sha512-Ufr+pgAElNiRCSklnHGOR10bXb02BLlosvbDK7sCRUMOcQ3R/HCXTfXs4BUkYZ4dKpx6l5dUD06VSW1dTpTEDw==
+
 "@humanwhocodes/config-array@^0.10.4":
   version "0.10.4"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.10.4.tgz#01e7366e57d2ad104feea63e72248f22015c520c"
@@ -1628,11 +1633,6 @@ prelude-ls@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.2.1.tgz#debc6489d7a6e6b0e7611888cec880337d316396"
   integrity sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==
-
-prettier-plugin-tailwindcss@^0.1.13:
-  version "0.1.13"
-  resolved "https://registry.yarnpkg.com/prettier-plugin-tailwindcss/-/prettier-plugin-tailwindcss-0.1.13.tgz#ca1071361dc7e2ed5d95a2ee36825ce45f814942"
-  integrity sha512-/EKQURUrxLu66CMUg4+1LwGdxnz8of7IDvrSLqEtDqhLH61SAlNNUSr90UTvZaemujgl3OH/VHg+fyGltrNixw==
 
 prettier@^2.7.1:
   version "2.7.1"
