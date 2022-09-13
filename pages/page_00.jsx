@@ -1,14 +1,14 @@
 // *Zomato homePage
 import NavBar from '../components/page_00/NavBar'
 import Banner from '../components/page_00/Banner'
+import Features from '../components/page_00/Features'
 
-const Page_00 = ({ data: { nav, banner } }) => {
+const Page_00 = ({ data: { nav, banner, features } }) => {
    return (
       <div className='relative'>
          <NavBar data={nav} />
          <Banner data={banner} />
-
-         {/* <div className='h-[300vh] bg-gray-500'></div> */}
+         <Features data={features} />
       </div>
    )
 }
