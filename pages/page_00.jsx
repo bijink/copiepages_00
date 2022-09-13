@@ -2,13 +2,15 @@
 import NavBar from '../components/page_00/NavBar'
 import Banner from '../components/page_00/Banner'
 import Features from '../components/page_00/Features'
+import Collections from '../components/page_00/Collections'
 
-const Page_00 = ({ data: { nav, banner, features } }) => {
+const Page_00 = ({ data: { nav, banner, features, collections } }) => {
    return (
       <div className='relative'>
          <NavBar data={nav} />
          <Banner data={banner} />
          <Features data={features} />
+         <Collections data={collections} />
       </div>
    )
 }

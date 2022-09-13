@@ -3,7 +3,7 @@ const reData = {
       'https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png',
       'https://b.zmtcdn.com/web_assets/8313a97515fcb0447d2d77c276532a511583262271.png',
    ],
-   place: ['Malappuram'],
+   place: ['Kochi'],
 }
 
 export const responseData = {
@@ -36,4 +36,27 @@ export const responseData = {
          img: 'https://b.zmtcdn.com/webFrontend/d026b357feb0d63c997549f6398da8cc1647364915.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*',
       },
    ],
+   collections: {
+      sectionTitle: 'Collections',
+      caption: 'Explore curated lists of top restaurants, cafes, pubs, and bars in Kochi, based on trends',
+      btn: 'All collections in Kochi',
+      collection: [
+         {
+            title: 'Veggie Friendly',
+            details: '5 Places',
+         },
+         {
+            title: 'Trending This Week',
+            details: '30 Places',
+         },
+         {
+            title: 'Must-Visit Restaurants in Kochi',
+            details: '9 Places',
+         },
+         {
+            title: ' Great Cafes',
+            details: '11 Places',
+         },
+      ],
+   },
 }
