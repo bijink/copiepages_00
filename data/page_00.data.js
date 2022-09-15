@@ -59,4 +59,31 @@ export const responseData = {
          },
       ],
    },
+   footer: {
+      titleImg: reData.titleImg[0],
+      footerLinks: [
+         {
+            title: 'about zomato',
+            links: ['Who We Are', 'Blog', 'Work With Us', 'Investor Relations', 'Report Fraud', 'Contact Us'],
+         },
+         {
+            title: 'zomaverse',
+            links: ['Zomato', 'Feeding India', 'Hyperpure', 'Zomaland'],
+         },
+         {
+            title: 'for restaurants',
+            links: ['Partner With Us', 'Apps For You'],
+         },
+         {
+            title: 'for enterprises',
+            links: ['Zomato For Work'],
+         },
+         {
+            title: 'learn more',
+            links: ['Privacy', 'Security', 'Terms', 'Sitemap'],
+         },
+      ],
+      // terms: 'By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2022 © Zomato™ Ltd. All rights reserved.',
+      terms: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut corrupti quos explicabo illum! Non dolorem fugiat deleniti, amet quas sequi officiis laudantium, cumque, quasi ad ipsam! Numquam explicabo omnis nisi esse, hic excepturi officiis sed.',
+   },
 }
