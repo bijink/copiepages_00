@@ -1,7 +1,7 @@
-import Image from 'next/image'
-import Hamburger from '../Hamburger'
-import { DevicePhoneMobileIcon } from '@heroicons/react/20/solid'
-import { useState } from 'react'
+import Image from "next/image"
+import Hamburger from "../Hamburger"
+import { DevicePhoneMobileIcon } from "@heroicons/react/20/solid"
+import { useState } from "react"
 
 const NavBar = ({ data }) => {
    const [hamburgerBtnClick, setHamburgerBtnClick] = useState(false)
@@ -11,8 +11,8 @@ const NavBar = ({ data }) => {
          {/* Hamburger btn */}
          <Hamburger
             style={{
-               btn: 'md:hidden absolute z-20 top-7 left-5',
-               span: `${hamburgerBtnClick ? 'bg-black' : 'bg-white'}`,
+               btn: "md:hidden absolute z-20 top-7 left-5",
+               span: `${hamburgerBtnClick ? "bg-black" : "bg-white"}`,
             }}
             click={hamburgerBtnClick}
             setClick={setHamburgerBtnClick}
@@ -20,7 +20,7 @@ const NavBar = ({ data }) => {
          {/* Hamburger Menu Slide */}
          <div
             className={`absolute ${
-               hamburgerBtnClick ? 'top-0' : '-top-full'
+               hamburgerBtnClick ? "top-0" : "-top-full"
             } transition-all z-10 h-full w-full bg-white pt-5 md:hidden`}
          >
             <div className='float-right pr-5'>

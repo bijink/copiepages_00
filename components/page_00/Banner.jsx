@@ -1,6 +1,6 @@
-import Image from 'next/image'
-import { MapPinIcon } from '@heroicons/react/24/solid'
-import { MagnifyingGlassIcon } from '@heroicons/react/20/solid'
+import Image from "next/image"
+import { MapPinIcon } from "@heroicons/react/24/solid"
+import { MagnifyingGlassIcon } from "@heroicons/react/20/solid"
 
 const Banner = ({ data }) => {
    return (

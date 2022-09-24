@@ -1,14 +1,14 @@
-import Image from 'next/image'
-import { GlobeAltIcon } from '@heroicons/react/24/outline'
-import { ChevronDownIcon } from '@heroicons/react/20/solid'
+import Image from "next/image"
+import { GlobeAltIcon } from "@heroicons/react/24/outline"
+import { ChevronDownIcon } from "@heroicons/react/20/solid"
 
 const Footer = ({ data }) => {
    let footerLinkTempObj = {}
 
    return (
-      <section className='bg-zinc-50 pt-10'>
+      <footer className='bg-zinc-100'>
          {/* container */}
-         <div className='container mx-auto px-2 md:px-10'>
+         <div className='container mx-auto px-2 pt-10 md:px-10'>
             {/* top */}
             <div className='flex flex-col justify-between sm:flex-row'>
                <div className='pb-5 sm:pb-0'>
@@ -87,7 +87,7 @@ const Footer = ({ data }) => {
             <hr />
             <div className='text-sm font-thin py-6'>{data.terms}</div>
          </div>
-      </section>
+      </footer>
    )
 }
 

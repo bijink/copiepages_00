@@ -1,10 +1,10 @@
-import Image from 'next/image'
-import { PlayIcon } from '@heroicons/react/20/solid'
+import Image from "next/image"
+import { PlayIcon } from "@heroicons/react/20/solid"
 
 const Collections = ({ data }) => {
    return (
       <section className='sm:max-w-full md:container mx-auto px-6 sm:px-9 pt-10'>
-         <h4 className='text-xl sm:text-2xl font-medium'>{data.sectionTitle}</h4>
+         <h4 className='text-xl sm:text-3xl font-medium'>{data.sectionTitle}</h4>
          <div className='flex justify-between pb-5'>
             <p className='text-sm text-gray-500'>{data.caption}</p>
             <a href='#' className='hidden md:flex items-center text-sm font-thin text-red-400'>
