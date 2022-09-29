@@ -9,7 +9,11 @@ module.exports = {
          xl: "1280px",
          "2xl": "1536px",
       },
-      extend: {},
+      extend: {
+         boxShadow: {
+            down: "0 5px 5px 1px rgb(0 0 0 / 0.05), 0 2px 4px -2px rgb(0 0 0 / 0.1);",
+         },
+      },
    },
    plugins: [],
 }

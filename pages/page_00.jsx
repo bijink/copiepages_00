@@ -5,14 +5,16 @@ import Features from "../components/page_00/Features"
 import Collections from "../components/page_00/Collections"
 import Footer from "../components/page_00/Footer"
 import Explore from "../components/page_00/Explore"
+import Localities from "../components/page_00/Localities"
 
-const Page_00 = ({ data: { nav, banner, features, collections, explore, footer } }) => {
+const Page_00 = ({ data: { nav, banner, features, collections, localities, explore, footer } }) => {
    return (
       <div className='relative'>
          <NavBar data={nav} />
          <Banner data={banner} />
          <Features data={features} />
          <Collections data={collections} />
+         <Localities data={localities} />
          <Explore data={explore} />
          <Footer data={footer} />
       </div>

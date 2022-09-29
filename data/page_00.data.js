@@ -59,6 +59,9 @@ export const responseData = {
          },
       ],
    },
+   localities: {
+      sectionTitle: "Popular localities in and around Kochi",
+   },
    explore: {
       sectionTitle: "Explore options near me",
       option: [
