@@ -36,7 +36,7 @@ const Localities = ({ data }) => {
                </div>
             ))}
             <div
-               className='flex flex-row justify-center items-center space-x-2 p-3 border rounded-lg cursor-pointer shadow-sm'
+               className='flex flex-row justify-center items-center space-x-2 p-6 border rounded-lg cursor-pointer shadow-sm'
                onClick={() => setSeeMoreClick(prev => !prev)}
             >
                <p className='text-lg'>{seeMoreClick ? "see less" : "see more"}</p>

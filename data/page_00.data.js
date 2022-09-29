@@ -148,7 +148,16 @@ export const responseData = {
             links: ["Privacy", "Security", "Terms", "Sitemap"],
          },
       ],
-      // terms: 'By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2022 © Zomato™ Ltd. All rights reserved.',
+      mobileAppLinkImg: [
+         {
+            img: "https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png",
+            alt: "apple-app-store",
+         },
+         {
+            img: "https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png",
+            alt: "google-play-store",
+         },
+      ],
       terms: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut corrupti quos explicabo illum! Non dolorem fugiat deleniti, amet quas sequi officiis laudantium, cumque, quasi ad ipsam! Numquam explicabo omnis nisi esse, hic excepturi officiis sed.",
    },
 }

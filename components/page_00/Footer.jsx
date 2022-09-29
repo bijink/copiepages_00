@@ -78,8 +78,11 @@ const Footer = ({ data }) => {
                      <div className='bg-black w-5 h-5 rounded-full'></div>
                   </div>
                   <div className='flex flex-col space-y-2 py-3'>
-                     <div className='bg-sky-900 w-full h-10 rounded-md'></div>
-                     <div className='bg-sky-900 w-full h-10 rounded-md'></div>
+                     {data.mobileAppLinkImg.map((item, index) => (
+                        <a key={index} href='#' className=''>
+                           <Image src={item.img} alt={item.alt} width={120} height={35} />
+                        </a>
+                     ))}
                   </div>
                </div>
             </div>
