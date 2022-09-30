@@ -11,7 +11,10 @@ module.exports = {
       },
       extend: {
          boxShadow: {
+            // page_00: localites section
             down: "0 5px 5px 1px rgb(0 0 0 / 0.05), 0 2px 4px -2px rgb(0 0 0 / 0.1);",
+            // page_00: appAdd section
+            radio: "0 0 0 3px white inset",
          },
       },
    },
